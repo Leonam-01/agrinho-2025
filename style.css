@@ -12,7 +12,7 @@ ul{
 }
 
 a{
-   color: aliceblue;
+   color: rgb(0, 0, 0);
 }
 
 
@@ -22,33 +22,39 @@ a{
 }
 .imagens-container img {
     width: 50%; /* Ou a porcentagem que você quiser */
-    height: auto;
+    height: 300px;
 }
 
 .caixa-1{
+    box-shadow: 5px 5px 10px rgba(41, 39, 39, 0.5);
     position: relative;
     margin-bottom: 4rem;
     margin-top: -8rem;
     margin-right: auto;
     margin-left: auto;
     width: 1000px;
-    background-color: blue;
+    background-color: rgb(201, 201, 201);
     display: flex;
+}   
+
+.dentro{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-.buceta{
-    text-align: center;
-    justify-content: center;
-}
 
 header, footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: large;
-    text-align: center;
     color:aliceblue;
-    background-color: black;
+    background-color: rgb(6, 61, 4);
     width: auto;
     height: 80px;
 }
+
 
 * {
     margin: 0;
